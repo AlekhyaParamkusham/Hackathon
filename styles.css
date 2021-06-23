@@ -1,0 +1,134 @@
+h4 {
+  background-color: #232323;
+  color: #F3F0D7;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 1% 1% 1% 2%;
+  font-weight: 100;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 900px;
+  height: 700px;
+  margin-top: 2%;
+}
+
+.formEle {
+  background-color: #0A1931;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 700px;
+  height: 150px;
+  border-radius: 20px;
+  color: #fff;
+  padding: 1%;
+}
+
+#searchUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+  height: 60px;
+  background-color: #0A1931;
+  border-radius: 10px;
+  border: 1px groove #F7A440;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+}
+
+#searchUser::placeholder {
+  color: #bbb;
+}
+
+.formEle button, input:focus {
+  outline: none;
+}
+
+.formEle button:focus {
+  outline: none;
+}
+
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  border: 0;
+  width: 100px;
+}
+
+.subContainer {
+  background-color: #0A1931;
+  display: flex;
+  width: 900px;
+  height: 250px;
+  margin: auto;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  border: 5px solid #fff;
+}
+
+.name {
+  color: #fff;
+  text-align: justify;
+  letter-spacing: 10px;
+  margin-left: 10px;
+}
+
+.bio {
+  color: #fff;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.repoElems {
+  padding-right: 2%;
+  margin-top: 2%;
+  float: left;
+}
+
+.subContainer3 {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  padding: 2%;
+  background-color: #0A1931;
+  border-radius: 20px;
+  width: 600px;
+  height: auto;
+}
+
+.repoDivClass {
+  display: flex;
+  margin: 1%;
+}
+
+.repoDivClass .btn {
+  margin-left: auto;
+  float: right;
+  border-radius: 20px;
+}
+
+.repoFiles {
+  color: white;
+}
